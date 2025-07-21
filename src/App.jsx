@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Hero from "./sections/Hero";
 
 const App = () => {
   return (
-    <div className='text-red-400 text-6xl'>App</div>
-  )
-}
+    <>
+      <Hero />
+    </>
+  );
+};
 
-export default App
+export default App;
